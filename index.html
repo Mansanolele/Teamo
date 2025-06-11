@@ -59,6 +59,7 @@
       font-size: 24px;
       pointer-events: none;
       animation: fall linear infinite;
+      color: #ff3366;
     }
 
     @keyframes fall {
@@ -91,7 +92,7 @@
       const seconds = Math.floor((diff / 1000) % 60);
 
       document.getElementById("timer").textContent =
-        `${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos que eu escolhi você, eu te amo ❤️`;
+        `${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos de amor ❤️`;
     }
 
     setInterval(updateTimer, 1000);
